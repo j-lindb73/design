@@ -4,22 +4,10 @@ title: "Min fina titel"
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
+[FIGURE src=img/Lindberg.jpg caption="Min fru och jag"]
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+Gift med Sophie och med fyra barn spenderar jag mitt liv i [Tranås](https://tranas.se). Det är en stad mitt emellan Jönköping och Linköping fast INTE utmed E4:an utan man svänger av i Gränna alternativt Mjölby för att komma till denna sommarpärla. Den ligger vid sjön Sommen som är en fantastisk sjö för båtar med alla dess öar, 345 st sägs det.
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Mina intressen som jag utövar regelbundet är sång och musik, detta i ett par olika körer. Sedan blir det en hel del flängande i närområdet på grund av barnens utövande av sport, i nuläget fotboll i [Tranås FF](https://tranasff.se)  
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
-
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
-
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
-
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+Jag har jobbat med IT de senaste 20 åren och nu vill jag skapa mig en fast grund att stå på när det gäller programmering. Gillar att lära mig och få koll på nya saker så detta passar mig - att få studera mitt i yrkeslivet - vilken lyx!
