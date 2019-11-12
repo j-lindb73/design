@@ -1,3 +1,4 @@
-#### Footer col 1
+#### Kloka ord
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+*"För att klättra högt, måste du börja lågt."*
+– Jiddu Krishnamurti

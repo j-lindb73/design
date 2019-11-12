@@ -1,3 +1,5 @@
-#### Footer col 2
+#### Länkar
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+[Facebook](https://www.facebook.com/johan.lindberg2?ref=bookmarks)
+
+[LinkedIn](https://www.linkedin.com/in/johan-lindberg-52b6056a/)
