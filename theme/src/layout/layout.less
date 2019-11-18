@@ -1,0 +1,74 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+// .region-sidebar-left,
+// .region-sidebar-right,
+// .region-main {
+//     background-color: pink;
+//     overflow: auto;
+//
+// }
+
+.inner-wrap {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.figure {
+    float: right;
+}
+
+.block {
+    clear: right;
+}
+/**
+ * Main and sidebars layout
+ */
+ .region-main {
+     // width: 70%;
+     // margin-left: 10%;
+     float: left;
+     overflow: auto;
+     &.has-sidebar {
+         margin-left: 0;
+         width: 70%;
+     }
+
+     &.has-sidebar-left.has-sidebar-right {
+         width: 60%;
+     }
+ }
+
+ .region-sidebar-left,
+.region-sidebar-right {
+    width: 30%;
+    float: left;
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+   width: 20%;
+}
+
+/**
+ * Site-footer layout
+ */
+ .outer-wrap-footer {
+     clear: both;
+ }
+
+ .site-footer {
+     max-width: 100%;
+     clear: both;
+     text-align: center;
+ }

@@ -2,14 +2,21 @@
 title: "Min fina titel"
 
 views:
-    byline:
-        region: main
+    kursrepo:
+        region: sidebar-left
         template: anax/v2/block/default
-        sort: 2
         data:
             meta:
                 type: single
-                route: block/byline
+                route: block/om-kursrepo
+
+    redovisa:
+        region: sidebar-right
+        template: anax/v2/block/default
+        data:
+            meta:
+                type: single
+                route: block/om-redovisa
 ---
 Test-sida för Markdown
 =========================
