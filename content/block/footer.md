@@ -1,1 +1,1 @@
-2019 Johan Lindberg
+&copy; 2019 Johan Lindberg

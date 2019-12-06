@@ -14,7 +14,7 @@ views:
 Min me-sida i kursen design
 =========================
 
-[FIGURE src=img/Lindberg.jpg caption="Min fru och jag"]
+[FIGURE src=image/Lindberg.jpg?height=264 caption="Min fru och jag"]
 
 Gift med Sophie och med fyra barn spenderar jag mitt liv i [Tranås](https://tranas.se). Det är en stad mitt emellan Jönköping och Linköping fast INTE utmed E4:an utan man svänger av i Gränna alternativt Mjölby för att komma till denna sommarpärla. Den ligger vid sjön Sommen som är en fantastisk sjö för båtar med alla dess öar, 345 st sägs det.
 

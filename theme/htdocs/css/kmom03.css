@@ -5350,6 +5350,16 @@ a:visited {
   color: inherit;
   text-decoration: none;
 }
+.rm-desktop li a {
+  background-color: #fff;
+}
+.rm-desktop li a:hover {
+  background-color: #0ff;
+  text-decoration: none;
+}
+.region-main {
+  padding-bottom: 24px;
+}
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.

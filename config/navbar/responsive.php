@@ -40,6 +40,20 @@ return [
             ],
         ],
         [
+            "text" => "Rapport",
+            "url" => "rapport",
+            "title" => "Rapporter kopplade till Design-kursen.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Färgschema",
+                        "url" => "rapport/fargschema",
+                        "title" => "Rapport Färgschema Kmom04",
+                    ],
+                ],
+            ],
+        ],
+        [
             "text" => "Om",
             "url" => "om",
             "title" => "Om denna webbplats.",
