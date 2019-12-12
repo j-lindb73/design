@@ -5782,3 +5782,6 @@ a:visited {
 .rm-mobile {
   background-image: linear-gradient(#00173D, #203352);
 }
+.inner-wrap-header .row {
+  max-width: 100%;
+}
