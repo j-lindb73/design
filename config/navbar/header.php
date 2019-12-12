@@ -40,6 +40,11 @@ return [
                         "url" => "redovisning/kmom04",
                         "title" => "Redovisning för kmom04.",
                     ],
+                    [
+                        "text" => "Kmom05",
+                        "url" => "redovisning/kmom05",
+                        "title" => "Redovisning för kmom05.",
+                    ],
                 ],
             ],
         ],
@@ -53,6 +58,35 @@ return [
                         "text" => "Färgschema",
                         "url" => "rapport/fargschema",
                         "title" => "Rapport Färgschema Kmom04",
+                    ],
+                    [
+                        "text" => "Laddningstid",
+                        "url" => "rapport/laddningstid",
+                        "title" => "Rapport Laddningstid Kmom05",
+                    ],
+                ],
+            ],
+        ],
+        [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Dagens bild",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Semester!",
+                        "url" => "blogg/mitt-tredje-inlagg",
+                        "title" => "Semester!",
+                    ],
+                    [
+                        "text" => "Jobba, jobba, jobba",
+                        "url" => "blogg/mitt-andra-inlagg",
+                        "title" => "Jobba, jobba, jobba",
+                    ],
+                    [
+                        "text" => "Mmm...tårta!",
+                        "url" => "blogg/mitt-forsta-inlagg",
+                        "title" => "Mmm...tårta!",
                     ],
                 ],
             ],
