@@ -1,0 +1,200 @@
+/*!
+* Stylesheet for design kmom06 Designprinciper.
+*
+* This stylesheet is for the design course and kmom06, Designprinciper
+*/
+/**
+ * Normalize and reset the style.
+ */
+@import "normalize.css/normalize.less";
+
+/**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+// @import "@desinax/responsive-menu/less/media-queries.less";
+
+/**
+* Internal self contained modules, save in directory module/.
+*/
+// @import "module/kmom01.less";
+@import "module/stylechooser.less";  // Just an example module
+
+/**
+* Import the vertical grid.
+*/
+@import "@desinax/vertical-grid/less/grid.less";
+
+/**
+* Import the typographic grid.
+*/
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+// Show the grid
+.hgrid .inner-wrap {
+   @gridImage: "../img/magic-number-@{magicNumber}.png";
+   #desinax-hgrid.showGrid(@gridImage);
+}
+
+/**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+ @import "@desinax/figure/less/asciinema.less";
+ @import "@desinax/figure/less/codepen.less";
+ @import "@desinax/figure/less/figure.less";
+
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+
+
+/**
+
+* Base style to affect HTML elements on a general scale.
+*/
+@import "base/base_kmom03.less";
+/**
+* Layout style for general structure of header, navbar, main, footer
+* and other regions of the page including route specific styles.
+*/
+@import "layout/layout_vgrid_06.less";
+// @import "layout/layout_kmom02.less";
+// @import "layout/responsive.less";
+@import "layout/regions.less";     // To add style for ?regions
+
+/**
+* My own settings, not currently in their own module.
+*/
+
+// Activate typographic grid to my style
+//@fontFamilyBody:     "serif";//"sans-serif";
+
+// // Set font family to use
+@fontFamilyHeadings:  @fontFamilyHelvetica;
+@fontFamilyBody:      @fontFamilyCalibri;
+@fontSizeBody: 18px;
+// @fontFamilyCode:      @fontFamilyCourier;
+
+
+@bgColorHtml: #373238;
+@bgColorBody: #ffffff;
+@bgColorFooter: #ffffff;
+@colorBody: #373238;
+@colorFooter: #373238;
+@bgColorMain1: rgba(252,202,204,0.5);
+// @bgColorMain2: #ffffff;
+
+@colorH1BorderBottom: #FF383F;
+@colorH4BorderBottom: #FF383F;
+@colorBorder: #ffffff;
+
+@bgColorMenu: #ffffff;
+@bgColorHoverMenu: #ffffff;
+@colorMenu:  #373238;
+
+@colorMenuMobile:  #ffffff;
+@bgColorMenuMobile1: #FF383F;
+@bgColorMenuMobile2: #FCCACC;
+.site-logo-text-icon {
+    display: none;
+}
+
+.site-logo-text {
+    font-size: (@fontSizeBody + 12px);
+}
+
+.outer-wrap-footer {
+    background-color: @bgColorFooter;
+    color: @colorFooter;
+    // border: dotted 2px @colorBorder;
+    // margin-top: 24px;
+
+}
+
+.byline img {
+    float: left;
+}
+
+img {
+    border: solid 1px @colorBorder;
+}
+
+.rm-mobile {
+    background-image: linear-gradient(@bgColorMenuMobile1, @bgColorMenuMobile2);
+}
+
+.inner-wrap-header .row {
+    max-width: 100%;
+}
+
+.inner-wrap-main {
+    background-color: @bgColorMain1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 12px;
+    transition: box-shadow;
+    transition-duration: 2s;
+}
+
+a {
+    text-decoration: none;
+    transition: text-shadow;
+    transition-duration: 0.5s;
+
+}
+
+a:hover {
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-shadow: 2px 2px 4px #000000;
+    // border-bottom:  solid 2px black;
+    transition: text-shadow;
+    transition-duration: 2s;
+}
+
+img:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
